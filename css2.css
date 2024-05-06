@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carre1 {
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+}
+.carre2 {
+    background-color: rgb(83, 228, 83);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+}
+.carre3 {
+    background-color: rgb(57, 179, 57);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+}
+.carre4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(44, 124, 44);
+    flex-wrap: wrap;
+}
+.cercle {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: black;
+}
+.milieu {
+    background-color: white;
+}
